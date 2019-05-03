@@ -1,2 +1,2 @@
-<img src="/Users/hugo/Library/Application Support/typora-user-images/image-20190426143511472.png" width="731" />
+<img src="assets/image-20190426143511472-6907522.png" width="731" />
 
