@@ -19,27 +19,12 @@ $ git push origin master //把本地仓库的文件上传到远程仓库
 
 ### 上传修改过的文件
 
-> git status 
+```powershell
+$ git status //显示更改过的文件及其路径以及新文件
+$ git add file_path // 将修改过的文件上传到缓存
+$ git commit -m "message"
+$ git commit -m "message" file_path1 file_path2 //对指定文件修改进行标注
+$ git push origin master 
+```
 
-It will show you all modified file and new file in working tree
-
-> modified:   file path
-
-Untracked files: that are not tracked by Git
-For adding Untracked files
-
-> git add <file path>
-
-after adding file you need to commit
-
-> git commit -m "< your message>"
-
-For committing only modified file
-
-> git commit -m "<your message>" <file_path 1> <file_path2>
-
-Pushing code to git
-
-> git push <origin> <branch_name>
-
-Update remote refs along with associated objects
+![image-20190504121305375](assets/image-20190504121305375.png)
