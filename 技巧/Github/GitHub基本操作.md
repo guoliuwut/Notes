@@ -17,3 +17,29 @@ $ git commit -m "del" //把第一步上传到缓存的东西上传到本地仓�
 $ git push origin master //把本地仓库的文件上传到远程仓库
 ```
 
+### 上传修改过的文件
+
+> git status 
+
+It will show you all modified file and new file in working tree
+
+> modified:   file path
+
+Untracked files: that are not tracked by Git
+For adding Untracked files
+
+> git add <file path>
+
+after adding file you need to commit
+
+> git commit -m "< your message>"
+
+For committing only modified file
+
+> git commit -m "<your message>" <file_path 1> <file_path2>
+
+Pushing code to git
+
+> git push <origin> <branch_name>
+
+Update remote refs along with associated objects
